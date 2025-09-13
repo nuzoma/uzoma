@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  touch-action: manipulation;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+a {
+  color: #666666;
+  font-weight: 800;
+}
+
+.header {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.container {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Host Grotesk", sans-serif;
+}
+
+.header, .content, .footer {
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.content {
+  margin-top: 80px;
+}
+
+.contact {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
