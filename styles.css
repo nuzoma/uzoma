@@ -18,9 +18,14 @@ a {
   font-weight: 800;
 }
 
+i {
+  font-size: 1.5rem;
+  color: #000000;
+}
+
 .header {
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -38,6 +43,7 @@ a {
 
 .content {
   margin-top: 80px;
+  margin-bottom: 100px;
 }
 
 .contact {
