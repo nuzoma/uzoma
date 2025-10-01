@@ -5,22 +5,54 @@
   touch-action: manipulation;
 }
 
+body {
+  background-color: #000000;
+}
+
+body.light-mode, body.light-mode a {
+  background-color: #fff;
+}
+
+body.light-mode a {
+  background-color: #fff;
+  color: #666666;
+  font-weight: bold;
+}
+
+body.light-mode body {
+  background-color: #fff;
+}
+
+body.light-mode i {
+  color: #fff;
+}
+
+body.light-mode .container {
+  background-color: #fff;
+  color: #000;
+}
+
 h1 {
   font-size: 2rem;
 }
 
+h2 {
+  font-size: 1rem;
+}
+
 p {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 a {
-  color: #666666;
+  color: #afa9a9;
   font-weight: 800;
 }
 
 i {
   font-size: 1.5rem;
-  color: #000000;
+  color: #000;
 }
 
 .header {
@@ -30,8 +62,8 @@ i {
 }
 
 .container {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #000;
+  color: #fff;
   font-family: "Host Grotesk", sans-serif;
 }
 
@@ -49,4 +81,45 @@ i {
 .contact {
   font-size: 1.2rem;
   font-weight: 800;
+}
+
+.theme-toggle {
+  font-size: .9rem;
+}
+
+.project-container {
+  display: grid;
+}
+
+.project-container .project-tiles {
+  border: 3px solid ;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.project-container .project-tiles h2 {
+  padding: 10px 15px 0px;
+}
+
+.project-container .project-tiles p {
+  padding: 10px 15px;
+}
+
+.project-details-link {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.project-container .project-tiles h2{
+  font-size: 1.7rem;
+}
+
+.project-container .project-tiles p{
+  font-size: 1.3rem;
+}
+
+@media screen and (min-width: 500px) {
+  
+
 }
