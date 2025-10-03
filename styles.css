@@ -42,6 +42,12 @@ body.light-mode .fa-arrow-up-right-from-square {
   color: #fff;
 }
 
+body.light-mode .ext-link {
+  color: #666666;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
 h1 {
   font-size: 2rem;
 }
@@ -70,6 +76,12 @@ i {
   color: #000;
 }
 
+.ext-link {
+  color: #afa9a9;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -81,6 +93,7 @@ i {
   gap: 5px;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .container {
