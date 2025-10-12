@@ -48,6 +48,10 @@ body.light-mode .ext-link {
   font-size: 1rem;
 }
 
+body.light-mode p > a:hover {
+  color: #000;
+}
+
 h1 {
   font-size: 2rem;
 }
