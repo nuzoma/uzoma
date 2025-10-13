@@ -54,10 +54,10 @@ body.light-mode p > a:hover {
 
 body.light-mode .project-tile-link {
   text-decoration: none;
-  background-color: #1b3c3c;
-  color: #fff;
+  background-color: #21313f;
+  color: #f0f0f0;
   border-radius: 6px;
-  border: 3px solid #cfa66a;
+  border: 3px solid #667788;
   margin-bottom: 20px;
 }
 
@@ -159,10 +159,10 @@ i {
 
 .project-tile-link {
   text-decoration: none;
-  background-color: #1b3c3c;
-  color: #fff;
+  background-color: #21313f;
+  color: #f0f0f0;
   border-radius: 6px;
-  border: 3px solid #cfa66a;
+  border: 3px solid #667788;
   margin-bottom: 20px;
 }
 
