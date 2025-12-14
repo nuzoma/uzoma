@@ -66,15 +66,18 @@ body.light-mode .project-tile-link {
 
 h1 {
   font-size: 2rem;
+  font-family: "Sora", sans-serif;
 }
 
 h2 {
   font-size: 1rem;
+  font-family: "Sora", sans-serif;
 }
 
 p {
-  font-size: 1.4rem;
-  font-weight: 400;
+  font-size: 1.3rem;
+  font-weight: 300;
+  /* margin-bottom: 20px; */
 }
 
 a {
@@ -85,6 +88,10 @@ a {
 i {
   font-size: 1.4rem;
   color: #fff;
+}
+
+.core-value {
+  margin-top: 20px;
 }
 
 .fa-arrow-up-right-from-square {
