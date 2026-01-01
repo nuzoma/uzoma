@@ -70,7 +70,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: .9rem;
   font-family: "Sora", sans-serif;
 }
 
@@ -125,14 +125,29 @@ i {
 }
 
 .header, .content, .footer {
-  width: 80%;
+  width: 85%;
   max-width: 600px;
   margin: 50px auto;
+}
+
+.logo-text {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 .content {
   margin-top: 80px;
   margin-bottom: 100px;
+}
+
+.cta-container p {
+  font-size: 1.2rem;
+  margin-top: 4px;
+}
+
+.cta-links {
+  text-decoration: none;
 }
 
 .available-btn {
@@ -244,11 +259,12 @@ i {
 }
 
 .project-container .project-tiles h2{
-  font-size: 1.7rem;
+  font-size: 1.3rem;
 }
 
-.project-container .project-tiles p{
-  font-size: 1.3rem;
+.project-container .project-tiles .project-tag{
+  font-size: .9rem;
+  margin-top: 10px;
 }
 
 p > a:hover {
@@ -271,7 +287,15 @@ p > a:hover {
   font-size: .9rem;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 450px) {
+  .content {
+    margin-top: 150px;
+    margin-bottom: 80px;
+  }
   
+  .cta-container {
+    display: flex;
+    justify-content: space-between;
+  }
 
 }
