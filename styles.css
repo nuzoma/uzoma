@@ -267,6 +267,11 @@ i {
   margin-top: 10px;
 }
 
+.project-sub-heading {
+  font-weight: bold;
+  margin-bottom: -20px;
+}
+
 p > a:hover {
   color: #fff;
 }

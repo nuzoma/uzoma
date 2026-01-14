@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Teardown_Expense AI</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/7c76a4449d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <section class="header">
+      <a href="index.html" class="logo-text">uzoma.</a>
+      <div class="enable-chaos" onclick="toggleEl()">
+        <i id="mode-icon" class="fa-regular fa-sun" ></i>
+        <p id="enable-chaos-el" class="theme-toggle">Enable chaos</p>
+      </div>
+    </section>
+
+    <section class="content">
+      <h1>Expense AI<h1>
+      <p>When small validation bugs destroy trust in financial products</p>
+      <br>
+      <p><b>Role:</b> Product Manager</p>
+      <p><b>Context:</b> Personal Finance · Free Tier Analysis</p>
+      <br>
+      <p class="project-sub-heading"><b>Context</b></p>
+      <br>
+      <p>I tested Expense AI, a personal finance tracker to understand how UX decisions impact trust and retention. Through 7 days of real expense tracking, I identified critical issues that could drive early churn despite the product's strong foundation.</p>
+      <br>
+      <p class="project-sub-heading"><b>Problem</b></p>
+      <br>
+      <p>Financial apps live or die on trust. While Expense AI had solid fundamentals (low-friction logging, multi-currency support, clean UI), I discovered execution gaps that compromised data accuracy, the core value proposition. The app accepted a future-dated expense (Dec 15, 2030), created conflicting dashboard data, and made it difficult to log expenses after reviewing spending patterns.</p>
+      <br>
+      <p class="project-sub-heading"><b>What I Found</b></p>
+      <br>
+      <p>⦁ The app accepted expenses dated in 2030, causing dashboard numbers to conflict and confuse users.</p>
+      <br>
+      <p>⦁ The + icon only appeared at the top of the dashboard. Users had to scroll back up to log expenses after reviewing data.</p>
+      <br>
+      <p>⦁ Different screens showed different totals for the same time period.</p>
+      <br>
+      <p class="project-sub-heading"><b>Recommended Solutions</b></p>
+      <br>
+      <p>⦁ Set max date = today on date picker with clear error feedback</p>
+      <br>
+      <p>⦁ Consider separate "Planned Expenses" feature if future-dating has legitimate use</p>
+      <br>
+      <p>⦁ Make + button sticky/floating for persistent access.</p>
+      <br>
+      <p class="project-sub-heading"><b>Key Learning</b></p>
+      <br>
+      <p>In financial products, Small bugs like these can break users trust in finance apps. Users can forgive missing features, but not wrong numbers.</p>
+      <br>
+      <br>
+
+      <div class="contact">
+        <br><br>
+        <h1>Work with me</h1>
+        <p>Got a high impact project?</p>
+        <p><a href="mailto:victoruzomanwankwo1@gmail.com" target="_blank">Send me an email<i class="ext-link fa-solid fa-arrow-up-right-from-square"></i></a></p>
+
+        <p>Or reach out to me on <a href="https://www.linkedin.com/in/victor-uzoma-nwankwo/" target="_blank">LinkedIn<i class="ext-link fa-solid fa-arrow-up-right-from-square"></i></a></p>
+      </div>
+
+    </section>
+
+  
+    <section class="footer"></section>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
