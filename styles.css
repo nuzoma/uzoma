@@ -262,6 +262,10 @@ i {
   font-size: 1.3rem;
 }
 
+.project-para {
+  font-size: 1.2rem;
+}
+
 .project-container .project-tiles .project-tag{
   font-size: .9rem;
   margin-top: 10px;
@@ -270,6 +274,12 @@ i {
 .project-sub-heading {
   font-weight: bold;
   margin-bottom: -20px;
+}
+
+.project-imgs {
+  width: 100%;
+  max-width: 580px;
+  height: auto;
 }
 
 p > a:hover {
